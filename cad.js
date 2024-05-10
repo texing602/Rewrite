@@ -27,7 +27,7 @@ if (url.match(/^https:\/\/cad\.glodon\.com\/(account\/gld\/loginByPassword|autho
     "hasEnt": false,
     "loginIdentity": "1709447589457",
     "userId": "7127939710550418240",
-    "cadToken": "3eb16cf4-e177-4c98-86e8-a8dff3fc3a58"
+    "cadToken": "5ae03deb-3919-48b0-b834-705875c2636e"
   }
 });
         $done({ body: responseBody });
