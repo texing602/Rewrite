@@ -21,7 +21,7 @@ var objc = JSON.parse($response.body);
   "receipt": {
     "receipt_type": "Production",
     "app_item_id": 6450832499,
-    "receipt_creation_date": "2024-01-17 14:17:21 Etc\/GMT",
+    "receipt_creation_date": "2099-09-09 14:17:21 Etc\/GMT",
     "bundle_id": "com.maxty.gofitness",
     "in_app": [
       {
@@ -33,28 +33,28 @@ var objc = JSON.parse($response.body);
         "transaction_id": "320001692332200",
         "is_trial_period": "false",
         "original_transaction_id": "320001692332200",
-        "purchase_date": "2024-01-17 14:17:18 Etc\/GMT",
+        "purchase_date": "2099-09-09 14:17:18 Etc\/GMT",
         "product_id": "576170870",//
         "original_purchase_date_pst": "2024-01-17 06:17:21 America\/Los_Angeles",
         "in_app_ownership_type": "PURCHASED",
-        "original_purchase_date_ms": "1705501041000",
+        "original_purchase_date_ms": "4092595200000",
         "web_order_line_item_id": "320000788106651",
         "expires_date_ms": "4092595200000",
-        "purchase_date_pst": "2024-01-17 06:17:18 America\/Los_Angeles",
+        "purchase_date_pst": "2099-09-09 06:17:18 America\/Los_Angeles",
         "original_purchase_date": "2024-01-17 14:17:21 Etc\/GMT"
       }
     ],
     "download_id": null,
     "adam_id": 6450832499,
     "receipt_creation_date_pst": "2024-01-17 06:17:21 America\/Los_Angeles",
-    "request_date": "2024-01-17 14:17:36 Etc\/GMT",
-    "request_date_pst": "2024-01-17 06:17:36 America\/Los_Angeles",
+    "request_date": "2099-09-09 14:17:36 Etc\/GMT",
+    "request_date_pst": "2099-09-09 06:17:36 America\/Los_Angeles",
     "version_external_identifier": 858380808,
-    "request_date_ms": "1705501056419",
+    "request_date_ms": "4092595200000",
     "original_purchase_date_pst": "2024-01-17 06:17:21 America\/Los_Angeles",
     "application_version": "1",
-    "original_purchase_date_ms": "1705501041000",
-    "receipt_creation_date_ms": "1705501041000",
+    "original_purchase_date_ms": "4092595200000",
+    "receipt_creation_date_ms": "4092595200000",
     "original_application_version": "1",
     "original_purchase_date": "2024-01-17 14:17:21 Etc\/GMT"
   },
@@ -63,14 +63,14 @@ var objc = JSON.parse($response.body);
   "latest_receipt_info": [
     {
       "quantity": "1",
-      "purchase_date_ms": "1705501038000",
+      "purchase_date_ms": "4092595200000",
       "expires_date": "2099-09-09 14:17:18 Etc\/GMT",
       "expires_date_pst": "2099-09-09 06:17:18 America\/Los_Angeles",
       "is_in_intro_offer_period": "false",
       "transaction_id": "320001692332200",
       "is_trial_period": "false",
       "original_transaction_id": "320001692332200",
-      "purchase_date": "2024-01-17 14:17:18 Etc\/GMT",
+      "purchase_date": "2099-09-09 14:17:18 Etc\/GMT",
       "product_id": "576170870",//
       "original_purchase_date_pst": "2024-01-17 06:17:21 America\/Los_Angeles",
       "in_app_ownership_type": "PURCHASED",
@@ -78,7 +78,7 @@ var objc = JSON.parse($response.body);
       "original_purchase_date_ms": "1705501041000",
       "web_order_line_item_id": "320000788106651",
       "expires_date_ms": "4092595200000",
-      "purchase_date_pst": "2024-01-17 06:17:18 America\/Los_Angeles",
+      "purchase_date_pst": "2099-09-09 06:17:18 America\/Los_Angeles",
       "original_purchase_date": "2024-01-17 14:17:21 Etc\/GMT"
     }
   ],
