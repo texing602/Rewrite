@@ -4,7 +4,7 @@ q
 [rewrite_local]
 ^https://admin\.dingtiku\.cn/app/(testinfo/listTestInfo|video/getVideoCourseDetails|testinfo/startTest|video/listVideoCourse|buy/getBuyDetails|user/getUserScore) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/dtk.js
 [mitm]
-hostname = kadmin.dingtiku.cn
+hostname = admin.dingtiku.cn
 
 */
 $done({
