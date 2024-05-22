@@ -8,7 +8,7 @@
 ^https?:\/\/axs\.shizilaoba\.com\/wechat\/(weiXin\/queryUserById|classify\/(getClassifyInfoByIdList2|getIndexPlay2)|audio\/getList2) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/shizilaobajgs.js
 
 [mitm]
-hostname = 
+hostname = axs.shizilaoba.com
 */
 var body = $response.body;
 
