@@ -53,15 +53,15 @@ if (url.includes("https://super.toppps.com/app-api/v1/toppps/live/getLiveSpaceDe
 $done({ body });
 
 function notifyPDFLink(link) {
-    if (typeof $notification !== 'undefined') {
+    if (typeof $rocket !== 'undefined') {
+        // 在 Shadowrocket 环境下使用 $rocket.notify() 函数进行通知，并包含点击链接
+        $rocket.notify("PDF 下载链接", "点击打开链接", link, {"open-url": link});
+    } else if (typeof $notification !== 'undefined') {
         // 在 Surge 或 Loon 环境下使用 $notification.post() 函数进行通知
         $notification.post("PDF 下载链接", "", link);
     } else if (typeof $notify !== 'undefined') {
         // 在 Quantumult X 环境下使用 $notify() 函数进行通知
         $notify("PDF 下载链接", "", link);
-    } else if (typeof $rocket !== 'undefined') {
-        // 在 Shadowrocket 环境下使用 $rocket.notify() 函数进行通知
-        $rocket.notify("PDF 下载链接", "", link);
     }
 }
 
