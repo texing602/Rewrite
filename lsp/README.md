@@ -1,6 +1,6 @@
 # 瑟瑟
 
-面具公社：[https://ba65.eimkeb.com](https://xigou8.com/download/3778_488405065.html)
+面具公社：https://xigou8.com/download/3778_488405065.html
 ## 脚本注明
 
 1. 如果打不开,挂代理
